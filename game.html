@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game</title>
+    <link rel="stylesheet" href="stylegame.css">
+</head>
+<body>
+    <div class="main">
+        <h1><span id="score1">0</span> - <span id="score2">0</span></h1>
+        <div class="boxes">
+            <div class="box1 box">
+                <p class="player">You</p>
+                <div class="hand-logo" id="player">
+                    <!-- <img src="assets/rock-hand.png" alt="" id="rock-hand">
+                    <img src="assets/paper-hand.png" alt="" id="paper-hand">
+                    <img src="assets/scissors-hand.png" alt="" id="scissors-hand"> -->
+                </div>
+                <div class="icons">
+                    <div class="icon" id="icon1"><img src="assets/rock-logo.png" alt="" id="rock"></div>
+                    <div class="icon" id="icon2"><img src="assets/paper-logo.png" alt="" id="paper"></div>
+                    <div class="icon" id="icon3"><img src="assets/scissors-logo.png" alt="" id="scissors"></div>
+                </div>
+            </div>
+            <div class="vs"><img src="assets/vs.png" alt=""></div>
+            <div class="box2 box">
+                <p class="player">Comp</p>
+                <div class="hand-logo" id="comp">
+                    <!-- <img src="assets/rock-hand.png" alt="" id="rock-hand">
+                    <img src="assets/paper-hand.png" alt="" id="paper-hand">
+                    <img src="assets/scissors-hand.png" alt="" id="scissors-hand"> -->
+            </div>
+            <div class="extra"></div>
+        </div>
+    </div>
+    <div class="footer" id="win">
+        <h1>You won the Game</h1>
+        <div class="playagain" id="again1">PLAY-AGAIN</div>
+    </div>
+    <div class="footer" id="lose">
+        <h1>You lost the Game</h1>
+        <div class="playagain" id="again2">PLAY-AGAIN</div>
+    </div>
+    <script src="game.js"></script>
+
+</body>
+</html>

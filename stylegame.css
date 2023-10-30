@@ -1,0 +1,88 @@
+/* **Iteration 2:** Style the HTML pages. */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+body{
+    /* padding: 3%; */
+    background-image: url("./assets/bg.png");
+}
+
+h1{
+    font-size: 70px;
+}
+
+.boxes{
+    display: flex;
+    gap: 80px;
+    justify-content: center;
+}
+.box{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    border: 1px solid #ffc434;
+    width: 350px;
+    height: 350px;
+}
+
+.vs img{
+    height: 450px;
+}
+
+.icons{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+
+.icon img{
+    width: 70px;
+    cursor: pointer;
+}
+
+.player{
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.hand-logo img{
+    width: 100%;
+}
+
+.playagain{
+    font-weight: 700;
+    background-color: #ffc434;
+    border-radius: 5px;
+    width: 120px;
+    height: 45px;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.footer{
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+}
+
+.footer h1{
+    font-size: 30px;
+}
